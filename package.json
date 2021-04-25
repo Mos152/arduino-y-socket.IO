@@ -1,0 +1,17 @@
+{
+  "name": "mariano",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "firmata": "firmata-party uno --debug"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "firmata-party": "^2.0.1",
+    "johnny-five": "^2.0.0",
+    "socket.io": "^4.0.0"
+  }
+}

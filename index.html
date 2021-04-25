@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>prueba</title>
+  </head>
+  <body>
+    <button id="led1">led 1</button>
+    <button id="led2">led 2</button>
+    <button id="led3">led 3</button>
+  </body>
+  <script src="/socket.io/socket.io.js"></script>
+<script>
+    const socket = io();
+    let led1 = document.getElementById('led1');
+    let led2 = document.getElementById('led2');
+    let led3 = document.getElementById('led3');
+    
+    let boolean = true;
+    led1.addEventListener('click', () => {
+        socket.emit('ledA',boolean)
+        boolean = !boolean;
+    })
+    led2.addEventListener('click', () => {
+        socket.emit('ledB',boolean)
+        boolean = !boolean;
+    })
+    led3.addEventListener('click', () => {
+        socket.emit('ledC',boolean)
+        boolean = !boolean;
+    })
+          
+
+</script>
+</html>
