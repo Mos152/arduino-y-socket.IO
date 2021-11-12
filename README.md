@@ -12,9 +12,9 @@ johnny-five
 
 ## aplicacion
 
-express: Para armar la configuracion del servidor.
-socket.io: para crear la conexion bidireccional entre el/los clientes y el servidor
-firmata-party: para flashear memoria del arduino conectado, siguiendo el protocolo firmata para poder realizar la comunicacion entre el software y la placa arduino
+- express: Para armar la configuracion del servidor.
+- socket.io: para crear la conexion bidireccional entre el/los clientes y el servidor
+- firmata-party: para flashear memoria del arduino conectado, siguiendo el protocolo firmata para poder realizar la comunicacion entre el software y la placa arduino
 
 
 ## Instalacion
