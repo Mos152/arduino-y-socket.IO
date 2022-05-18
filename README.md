@@ -1,7 +1,7 @@
 # Objetivo
 
-crear servidor en nodejs conectado a una graficadora controlada con arduino-uno,
-el cual recibe peticiones en tiempo real de el/los clientes para controlar la graficadora 
+crear servidor en nodejs conectado a un arduino-uno,
+el cual recibe peticiones en tiempo real de el/los clientes para controlarla.
 
 ## dependencias
 
