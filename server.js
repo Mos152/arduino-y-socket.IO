@@ -4,6 +4,7 @@ const io = require('socket.io')(http);
 const five = require("johnny-five");
 const board = new five.Board()
 
+//esto es un cambio de prueba 
 app.get('/', (req, res) => {
   res.sendFile(__dirname + '/index.html');
 });
